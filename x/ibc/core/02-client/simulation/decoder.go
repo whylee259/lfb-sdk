@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/store/types"
-	host "github.com/line/lbm-sdk/v2/x/ibc/core/24-host"
-	"github.com/line/lbm-sdk/v2/x/ibc/core/exported"
+	"github.com/line/lfb-sdk/store/types"
+	host "github.com/line/lfb-sdk/x/ibc/core/24-host"
+	"github.com/line/lfb-sdk/x/ibc/core/exported"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

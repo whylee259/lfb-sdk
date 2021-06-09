@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"testing"
 
-	types2 "github.com/line/lbm-sdk/v2/store/types"
-	"github.com/line/lbm-sdk/v2/types/kv"
+	types2 "github.com/line/lfb-sdk/store/types"
+	"github.com/line/lfb-sdk/types/kv"
 	"github.com/stretchr/testify/require"
 
-	"github.com/line/lbm-sdk/v2/simapp"
-	"github.com/line/lbm-sdk/v2/x/ibc/applications/transfer/simulation"
-	"github.com/line/lbm-sdk/v2/x/ibc/applications/transfer/types"
+	"github.com/line/lfb-sdk/simapp"
+	"github.com/line/lfb-sdk/x/ibc/applications/transfer/simulation"
+	"github.com/line/lfb-sdk/x/ibc/applications/transfer/types"
 )
 
 func TestDecodeStore(t *testing.T) {

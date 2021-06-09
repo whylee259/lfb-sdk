@@ -6,17 +6,17 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	types2 "github.com/line/lbm-sdk/v2/store/types"
+	types2 "github.com/line/lfb-sdk/store/types"
 	abci "github.com/line/ostracon/abci/types"
 	"github.com/line/ostracon/libs/log"
 	ostproto "github.com/line/ostracon/proto/ostracon/types"
 	"github.com/line/tm-db/v2/memdb"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/line/lbm-sdk/v2/crypto/keys/secp256k1"
-	"github.com/line/lbm-sdk/v2/store"
-	"github.com/line/lbm-sdk/v2/tests/mocks"
-	"github.com/line/lbm-sdk/v2/types"
+	"github.com/line/lfb-sdk/crypto/keys/secp256k1"
+	"github.com/line/lfb-sdk/store"
+	"github.com/line/lfb-sdk/tests/mocks"
+	"github.com/line/lfb-sdk/types"
 )
 
 type contextTestSuite struct {

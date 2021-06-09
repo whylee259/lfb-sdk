@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	types2 "github.com/line/lbm-sdk/v2/store/types"
-	"github.com/line/lbm-sdk/v2/types/kv"
+	types2 "github.com/line/lfb-sdk/store/types"
+	"github.com/line/lfb-sdk/types/kv"
 	"github.com/stretchr/testify/require"
 
-	"github.com/line/lbm-sdk/v2/crypto/keys/ed25519"
-	"github.com/line/lbm-sdk/v2/simapp"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	"github.com/line/lbm-sdk/v2/x/gov/simulation"
-	"github.com/line/lbm-sdk/v2/x/gov/types"
+	"github.com/line/lfb-sdk/crypto/keys/ed25519"
+	"github.com/line/lfb-sdk/simapp"
+	sdk "github.com/line/lfb-sdk/types"
+	"github.com/line/lfb-sdk/x/gov/simulation"
+	"github.com/line/lfb-sdk/x/gov/types"
 )
 
 var (

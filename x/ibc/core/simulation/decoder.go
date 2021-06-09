@@ -4,17 +4,17 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	types3 "github.com/line/lbm-sdk/v2/store/types"
-	types2 "github.com/line/lbm-sdk/v2/types"
-	"github.com/line/lbm-sdk/v2/x/ibc/applications/transfer/types"
-	clientsim "github.com/line/lbm-sdk/v2/x/ibc/core/02-client/simulation"
-	types4 "github.com/line/lbm-sdk/v2/x/ibc/core/02-client/types"
-	keeper2 "github.com/line/lbm-sdk/v2/x/ibc/core/03-connection/keeper"
-	connectionsim "github.com/line/lbm-sdk/v2/x/ibc/core/03-connection/simulation"
-	channelsim "github.com/line/lbm-sdk/v2/x/ibc/core/04-channel/simulation"
-	host "github.com/line/lbm-sdk/v2/x/ibc/core/24-host"
-	types5 "github.com/line/lbm-sdk/v2/x/ibc/light-clients/09-localhost/types"
+	"github.com/line/lfb-sdk/codec"
+	types3 "github.com/line/lfb-sdk/store/types"
+	types2 "github.com/line/lfb-sdk/types"
+	"github.com/line/lfb-sdk/x/ibc/applications/transfer/types"
+	clientsim "github.com/line/lfb-sdk/x/ibc/core/02-client/simulation"
+	types4 "github.com/line/lfb-sdk/x/ibc/core/02-client/types"
+	keeper2 "github.com/line/lfb-sdk/x/ibc/core/03-connection/keeper"
+	connectionsim "github.com/line/lfb-sdk/x/ibc/core/03-connection/simulation"
+	channelsim "github.com/line/lfb-sdk/x/ibc/core/04-channel/simulation"
+	host "github.com/line/lfb-sdk/x/ibc/core/24-host"
+	types5 "github.com/line/lfb-sdk/x/ibc/light-clients/09-localhost/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

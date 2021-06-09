@@ -1,17 +1,17 @@
 package keeper
 
 import (
-	types2 "github.com/line/lbm-sdk/v2/store/types"
+	types2 "github.com/line/lfb-sdk/store/types"
 	"github.com/line/ostracon/libs/log"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	sdkerrors "github.com/line/lbm-sdk/v2/types/errors"
-	clienttypes "github.com/line/lbm-sdk/v2/x/ibc/core/02-client/types"
-	"github.com/line/lbm-sdk/v2/x/ibc/core/03-connection/types"
-	commitmenttypes "github.com/line/lbm-sdk/v2/x/ibc/core/23-commitment/types"
-	host "github.com/line/lbm-sdk/v2/x/ibc/core/24-host"
-	"github.com/line/lbm-sdk/v2/x/ibc/core/exported"
+	"github.com/line/lfb-sdk/codec"
+	sdk "github.com/line/lfb-sdk/types"
+	sdkerrors "github.com/line/lfb-sdk/types/errors"
+	clienttypes "github.com/line/lfb-sdk/x/ibc/core/02-client/types"
+	"github.com/line/lfb-sdk/x/ibc/core/03-connection/types"
+	commitmenttypes "github.com/line/lfb-sdk/x/ibc/core/23-commitment/types"
+	host "github.com/line/lfb-sdk/x/ibc/core/24-host"
+	"github.com/line/lfb-sdk/x/ibc/core/exported"
 )
 
 // Keeper defines the IBC connection keeper

@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	types3 "github.com/line/lbm-sdk/v2/store/types"
-	types2 "github.com/line/lbm-sdk/v2/types"
-	keeper2 "github.com/line/lbm-sdk/v2/x/ibc/applications/transfer/keeper"
-	"github.com/line/lbm-sdk/v2/x/ibc/applications/transfer/types"
+	"github.com/line/lfb-sdk/codec"
+	types3 "github.com/line/lfb-sdk/store/types"
+	types2 "github.com/line/lfb-sdk/types"
+	keeper2 "github.com/line/lfb-sdk/x/ibc/applications/transfer/keeper"
+	"github.com/line/lfb-sdk/x/ibc/applications/transfer/types"
 )
 
 // TransferUnmarshaler defines the expected encoding store functions.

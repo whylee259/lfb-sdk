@@ -3,8 +3,8 @@ package store
 import (
 	"testing"
 
-	types2 "github.com/line/lbm-sdk/v2/codec/types"
-	"github.com/line/lbm-sdk/v2/x/auth/types"
+	types2 "github.com/line/lfb-sdk/codec/types"
+	"github.com/line/lfb-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 )
 

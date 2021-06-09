@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	sdkerrors "github.com/line/lbm-sdk/v2/types/errors"
-	"github.com/line/lbm-sdk/v2/x/gov/types"
+	"github.com/line/lfb-sdk/codec"
+	sdk "github.com/line/lfb-sdk/types"
+	sdkerrors "github.com/line/lfb-sdk/types/errors"
+	"github.com/line/lfb-sdk/x/gov/types"
 )
 
 // AddVote adds a vote on a specific proposal

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	types2 "github.com/line/lbm-sdk/v2/store/types"
+	types2 "github.com/line/lfb-sdk/store/types"
 	"github.com/line/ostracon/libs/log"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/store/prefix"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	sdkerrors "github.com/line/lbm-sdk/v2/types/errors"
-	"github.com/line/lbm-sdk/v2/x/capability/types"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/store/prefix"
+	sdk "github.com/line/lfb-sdk/types"
+	sdkerrors "github.com/line/lfb-sdk/types/errors"
+	"github.com/line/lfb-sdk/x/capability/types"
 )
 
 type (

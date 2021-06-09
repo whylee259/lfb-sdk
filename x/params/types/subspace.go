@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/store/prefix"
-	"github.com/line/lbm-sdk/v2/store/types"
-	sdk "github.com/line/lbm-sdk/v2/types"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/store/prefix"
+	"github.com/line/lfb-sdk/store/types"
+	sdk "github.com/line/lfb-sdk/types"
 )
 
 const (

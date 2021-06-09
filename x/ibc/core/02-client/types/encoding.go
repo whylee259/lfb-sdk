@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/x/ibc/core/exported"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/x/ibc/core/exported"
 )
 
 func GetClientStateUnmarshalFunc(cdc codec.BinaryMarshaler) func (value []byte) interface{} {

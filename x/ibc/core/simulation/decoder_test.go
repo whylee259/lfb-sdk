@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/line/lbm-sdk/v2/store/types"
-	types2 "github.com/line/lbm-sdk/v2/types"
-	"github.com/line/lbm-sdk/v2/types/kv"
+	"github.com/line/lfb-sdk/store/types"
+	types2 "github.com/line/lfb-sdk/types"
+	"github.com/line/lfb-sdk/types/kv"
 	"github.com/stretchr/testify/require"
 
-	"github.com/line/lbm-sdk/v2/simapp"
-	clienttypes "github.com/line/lbm-sdk/v2/x/ibc/core/02-client/types"
-	connectiontypes "github.com/line/lbm-sdk/v2/x/ibc/core/03-connection/types"
-	channeltypes "github.com/line/lbm-sdk/v2/x/ibc/core/04-channel/types"
-	host "github.com/line/lbm-sdk/v2/x/ibc/core/24-host"
-	"github.com/line/lbm-sdk/v2/x/ibc/core/simulation"
-	ibctmtypes "github.com/line/lbm-sdk/v2/x/ibc/light-clients/07-tendermint/types"
+	"github.com/line/lfb-sdk/simapp"
+	clienttypes "github.com/line/lfb-sdk/x/ibc/core/02-client/types"
+	connectiontypes "github.com/line/lfb-sdk/x/ibc/core/03-connection/types"
+	channeltypes "github.com/line/lfb-sdk/x/ibc/core/04-channel/types"
+	host "github.com/line/lfb-sdk/x/ibc/core/24-host"
+	"github.com/line/lfb-sdk/x/ibc/core/simulation"
+	ibctmtypes "github.com/line/lfb-sdk/x/ibc/light-clients/07-tendermint/types"
 )
 
 func TestDecodeStore(t *testing.T) {

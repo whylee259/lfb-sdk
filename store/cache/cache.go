@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/karlseguin/ccache/v2"
-	"github.com/line/lbm-sdk/v2/store/cachekv"
-	"github.com/line/lbm-sdk/v2/store/types"
+	"github.com/line/lfb-sdk/store/cachekv"
+	"github.com/line/lfb-sdk/store/types"
 )
 
 const (

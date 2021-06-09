@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/line/lbm-sdk/v2/store/types"
+	"github.com/line/lfb-sdk/store/types"
 	"github.com/line/ostracon/libs/log"
 	tmdb "github.com/line/tm-db/v2"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/simapp/helpers"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	"github.com/line/lbm-sdk/v2/types/module"
-	simtypes "github.com/line/lbm-sdk/v2/types/simulation"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/simapp/helpers"
+	sdk "github.com/line/lfb-sdk/types"
+	"github.com/line/lfb-sdk/types/module"
+	simtypes "github.com/line/lfb-sdk/types/simulation"
 )
 
 // SetupSimulation creates the config, db (levelDB), temporary directory and logger for

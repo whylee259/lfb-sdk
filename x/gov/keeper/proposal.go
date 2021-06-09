@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/client"
-	"github.com/line/lbm-sdk/v2/codec"
-	types2 "github.com/line/lbm-sdk/v2/store/types"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	sdkerrors "github.com/line/lbm-sdk/v2/types/errors"
-	"github.com/line/lbm-sdk/v2/x/gov/types"
+	"github.com/line/lfb-sdk/client"
+	"github.com/line/lfb-sdk/codec"
+	types2 "github.com/line/lfb-sdk/store/types"
+	sdk "github.com/line/lfb-sdk/types"
+	sdkerrors "github.com/line/lfb-sdk/types/errors"
+	"github.com/line/lfb-sdk/x/gov/types"
 )
 
 // SubmitProposal create new proposal given a content

@@ -5,12 +5,12 @@ import (
 	"fmt"
 
 	gogotypes "github.com/gogo/protobuf/types"
-	types4 "github.com/line/lbm-sdk/v2/store/types"
-	types2 "github.com/line/lbm-sdk/v2/types"
-	keeper2 "github.com/line/lbm-sdk/v2/x/slashing/keeper"
+	types4 "github.com/line/lfb-sdk/store/types"
+	types2 "github.com/line/lfb-sdk/types"
+	keeper2 "github.com/line/lfb-sdk/x/slashing/keeper"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/x/slashing/types"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/x/slashing/types"
 )
 
 func GetStringValueValueUnmarshalFunc(cdc codec.BinaryMarshaler) func (value []byte) interface{} {

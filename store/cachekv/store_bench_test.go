@@ -5,13 +5,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	"github.com/line/lbm-sdk/v2/testutil/store"
-	types2 "github.com/line/lbm-sdk/v2/x/auth/types"
+	"github.com/line/lfb-sdk/codec"
+	"github.com/line/lfb-sdk/testutil/store"
+	types2 "github.com/line/lfb-sdk/x/auth/types"
 	"github.com/line/tm-db/v2/memdb"
 
-	"github.com/line/lbm-sdk/v2/store/cachekv"
-	"github.com/line/lbm-sdk/v2/store/dbadapter"
+	"github.com/line/lfb-sdk/store/cachekv"
+	"github.com/line/lfb-sdk/store/dbadapter"
 )
 
 func benchmarkCacheKVStoreIterator(numKVs int, b *testing.B) {

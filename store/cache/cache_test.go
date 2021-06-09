@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	store2 "github.com/line/lbm-sdk/v2/testutil/store"
-	types2 "github.com/line/lbm-sdk/v2/x/auth/types"
+	"github.com/line/lfb-sdk/codec"
+	store2 "github.com/line/lfb-sdk/testutil/store"
+	types2 "github.com/line/lfb-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 
 	"github.com/line/iavl/v2"
 	"github.com/line/tm-db/v2/memdb"
 
-	"github.com/line/lbm-sdk/v2/store/cache"
-	iavlstore "github.com/line/lbm-sdk/v2/store/iavl"
-	"github.com/line/lbm-sdk/v2/store/types"
+	"github.com/line/lfb-sdk/store/cache"
+	iavlstore "github.com/line/lfb-sdk/store/iavl"
+	"github.com/line/lfb-sdk/store/types"
 )
 
 func TestGetOrSetStoreCache(t *testing.T) {

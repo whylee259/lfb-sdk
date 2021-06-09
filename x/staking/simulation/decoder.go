@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/line/lbm-sdk/v2/codec"
-	types2 "github.com/line/lbm-sdk/v2/store/types"
-	sdk "github.com/line/lbm-sdk/v2/types"
-	"github.com/line/lbm-sdk/v2/x/staking/keeper"
-	"github.com/line/lbm-sdk/v2/x/staking/types"
+	"github.com/line/lfb-sdk/codec"
+	types2 "github.com/line/lfb-sdk/store/types"
+	sdk "github.com/line/lfb-sdk/types"
+	"github.com/line/lfb-sdk/x/staking/keeper"
+	"github.com/line/lfb-sdk/x/staking/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's
