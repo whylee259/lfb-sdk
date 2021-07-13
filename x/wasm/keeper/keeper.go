@@ -21,9 +21,8 @@ import (
 	wasmvmtypes "github.com/line/wasmvm/types"
 )
 
-// MaxGas for a contract is 10 billion wasmer gas (enforced in rust to prevent overflow)
-// The limit for v0.9.3 is defined here: https://github.com/CosmWasm/cosmwasm/blob/v0.9.3/packages/vm/src/backends/singlepass.rs#L15-L23
-// (this will be increased in future releases)
+// MaxGas was restriction is increased to 0x7FFFFFFFFFFFFFFF in CosmWasm 0.10.
+// This const is not needed now and we can manage it in another way.
 const MaxGas = 10_000_000_000
 
 // contractMemoryLimit is the memory limit of each contract execution (in MiB)
@@ -1009,8 +1008,9 @@ func (k Keeper) QueryGasLimit() sdk.Gas {
 	return k.queryGasLimit
 }
 
-// BankCoinTransferrer replicates the cosmos-sdk behaviour as in
-// https://github.com/cosmos/cosmos-sdk/blob/v0.41.4/x/bank/keeper/msg_server.go#L26
+// CoinTransferrer replicates the cosmos-sdk behaviour as in
+// lfb-sdk's x/bank/keeper/msg_server.go Send
+// (https://github.com/line/lfb-sdk/blob/2a5a2d2c885b03e278bcd67546d4f21e74614ead/x/bank/keeper/msg_server.go#L26)
 type BankCoinTransferrer struct {
 	keeper types.BankKeeper
 }
